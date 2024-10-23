@@ -2,7 +2,7 @@
 int main(){
     char pet;
     printf("Do you have a cat or dog c/d ?");
-    scanf("%c\n",&pet);
+    scanf("%c",&pet);
     if (pet == 'd' || pet == 'D'){
         printf("Dogs say: hav\n");
     }
