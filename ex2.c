@@ -8,7 +8,7 @@ int main(void) {
     scanf("%d", &age);
 
 
-    for (int i = 1; i <= age; i++) {
+    for (int i = 0; i <= age; i++) {
         printf("%d. Happy Birthday!\n", i);
     }
 
